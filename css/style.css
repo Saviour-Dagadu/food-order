@@ -1,0 +1,451 @@
+/* 
+    Author: Saviour Dagadu;
+    Theme: Restaurant Food Order;
+    version: 1.0;
+*/
+
+/* CSS for All */
+*{
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    width: 80%;
+    margin: 0 auto;
+    padding: 1%;
+}
+.img-responsive{
+    width: 100%;
+}
+.img-curve{
+    border-radius: 15px;
+}
+
+.text-right{
+    text-align: right;
+}
+.text-center{
+    text-align: center;
+}
+.text-left{
+    text-align: left;
+}
+.text-white{
+    color: white;
+}
+
+.clearfix{
+    clear: both;
+    float: none;
+}
+
+a{
+    color: #ff6b81;
+    text-decoration: none;
+}
+a:hover{
+    color: #ff4757;
+}
+
+.btn{
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary{
+    background-color:  #ff6b81;
+    padding: 2%;
+    color: white;
+    cursor: pointer;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-primary:hover{
+    color: white;
+    background-color:  #ff4757;
+}
+
+.btn-secondary{
+    background-color: #7bed9f;
+    padding: 2%;
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.btn-secondary:hover{
+    background-color: #2ed573;
+}
+
+h2{
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+h3{
+    font-size: 1.5rem;
+}
+.float-container{
+    position: relative;
+}
+.float-text{
+    position: absolute;
+    bottom: 50px;
+    left: 40%;
+}
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+.error{
+    padding: 2%;
+    width: 60%;
+    margin: auto;
+    background-color: red;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+.success{
+    padding: 2%;
+    width: 60%;
+    margin: auto;
+    background-color: green;
+    border-radius: 5px;
+    font-weight: bold;
+    text-align: center;
+    color: white;
+}
+
+
+/* CSS for navbar section */
+
+.navbar{
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
+    margin-bottom: 2%;
+    border-bottom: 1px solid red;
+}
+
+.logo{
+    width: 10%;
+    float: left;
+}
+.menu{
+    line-height: 60px;
+}
+.menu ul{
+    list-style-type: none;
+}
+
+.menu ul li{
+    display: inline;
+    padding: 1%;
+    font-weight: bold;
+}
+
+
+/* CSS for Food SEarch Section */
+
+.food-search{
+    background-image: url(../images/bg.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 7% 0;
+}
+
+.food-search input[type="search"]{
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* CSS for Categories */
+.categories{
+    padding: 4% 0;
+}
+
+.box-3{
+    width: 28%;
+    float: left;
+    margin: 2%;
+}
+
+
+/* CSS for Food Menu */
+.food-menu{
+    background-color: #ececec;
+    padding: 4% 0;
+}
+
+.food-menu-box{
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-responsive{
+	transform: scale (1.04);
+	transition: all .4s ease-in-out;
+}
+
+.food-responsive:hover{
+    transform: translateY(-15px) scale(1.1);
+}
+
+.food-menu-img{
+    width: 20%;
+    float: left;
+}
+
+.food-menu-desc{
+    width: 70%;
+    float: left;
+    margin-left: 8%;
+}
+
+.food-price{
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+.food-detail{
+    font-size: 1rem;
+    color: #747d8c;
+}
+
+
+/* CSS for Social */
+.social ul{
+    list-style-type: none;
+}
+.social ul li{
+    display: inline;
+    padding: 1%;
+}
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}
+
+/* Contact Section*/
+ 
+#info{
+    padding: 30px 0;
+}
+
+#info .container{
+     display: flex;
+}
+
+#info .info{
+    width: 28%;
+    height: 300px;
+    border-radius: 10px;
+    overflow: hidden;
+   
+}
+
+#info .info-text{
+    border: 1px solid lightgray;
+    padding: 10px;
+}
+
+#info .info-text h4{
+    margin: 5px;
+}
+
+#info .info-text .info-text-call{
+    margin-bottom: 20px;
+}
+
+#info .info-image{
+margin-right: 10px;
+overflow: hidden;
+box-shadow: 0 0 5px #333;
+transform: scale (1.04);
+transition: all .4s ease-in-out;
+}
+
+#info .info-image:hover{
+transform: translateY(-15px) scale(1.1);
+box-shadow: 0 0 10px #333;
+}
+#info .info-image img{
+max-width: 100%;
+height: auto
+}
+
+#info .info-image:hover .info-image img{
+opacity: 1;
+}
+
+       /* message Section */
+#message{
+    padding: 30px 0;
+    background-color: lightgray;
+}
+
+#message .message-top{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#message .message-top h3{
+    text-transform: uppercase;
+    margin: 0;
+}
+
+#message .message-top h3::after{
+    content: "";
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: gray;
+    margin: 10px auto 0;
+}
+
+#message .message-bottom{
+    color: black;
+}
+
+#message .message-bottom label{
+    display: block;
+    font-size: 17px;
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+#message .message-bottom .form-group{
+    margin-bottom: 10px;
+}
+
+#message .message-bottom .input{
+    display: block;
+    height: 40px;
+    border-radius: 5px;
+    border: 1px solid brown;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 100%;
+    font-size: 15px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, Sans-serif;
+}
+
+#message .message-bottom input,
+#message .message-bottom textarea,
+#message .message-bottom button{
+    outline: none;
+}
+
+#message  textarea{
+    width: 100%;
+    height: 200px;
+    border-radius: 5px;
+    border: 1px solid brown;
+    background-color: white;
+    padding: 5px 10px;
+    font: 15px 'Segoe UI', Tahoma, Geneva, Verdana, Sans-serif;
+}
+
+#message .message-bottom .btn{
+    padding: 10px 20px;
+    background-color: brown;
+    text-transform: uppercase;
+    font: 15px 'Segoe UI', Tahoma, Geneva, Verdana, Sans-serif;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+}
+
+
+/* CSS for Mobile Size or Smaller Screen */
+
+@media only screen and (max-width:768px){
+    .logo{
+        width: 80%;
+        float: none;
+        margin: 1% auto;
+    }
+
+    .menu ul{
+        text-align: center;
+    }
+
+    .food-search input[type="search"]{
+        width: 90%;
+        padding: 2%;
+        margin-bottom: 3%;
+    }
+
+    .btn{
+        width: 91%;
+        padding: 2%;
+    }
+
+    .food-search{
+        padding: 10% 0;
+    }
+
+    .categories{
+        padding: 20% 0;
+    }
+    h2{
+        margin-bottom: 10%;
+    }
+    .box-3{
+        width: 100%;
+        margin: 4% auto;
+    }
+
+    .food-menu{
+        padding: 20% 0;
+    }
+
+    .food-menu-box{
+        width: 90%;
+        padding: 5%;
+        margin-bottom: 5%;
+    }
+    .social{
+        padding: 5% 0;
+    }
+    .order{
+        width: 100%;
+    }
+}
