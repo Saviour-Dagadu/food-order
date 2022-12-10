@@ -73,7 +73,7 @@
         //Get all the values from form
         echo $id = $_POST['id'];
         echo $full_name = mysqli_real_escape_string($con, $_POST['full_name']);
-        echo $username = mysqli_real_escape_string($con, $_POST['username']);
+        echo $username = mysqli_real_escape_string($con, md5($_POST['username']));
 
         //Create an SQL Query to update Admin
         $sql = "UPDATE tbl_admin SET
