@@ -19,7 +19,7 @@
     <!-- footer Section Starts Here -->
     <section class="footer">
         <div class="container text-center">
-            <p> &copy; 2021 | All rights reserved. | Designed By <a href="https://objective-brown-fa0d45.netlify.app/ ">Savi</a></p>
+            <p> &copy; 2021 | All rights reserved. | Designed By <a href="http://savytechdeveloper.netlify.app/">Savi</a></p>
         </div>
     </section>
     <!-- footer Section Ends Here -->
