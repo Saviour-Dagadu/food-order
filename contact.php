@@ -52,8 +52,8 @@
 					  <input type="email" id="email" name="email" class="input" placeholder="example123@food.com" />
 				   </div>
 				   <div class="form-group">
-				      <label for="email">Phone Number</label>
-					  <input type="tel" id="email" name="contact" class="input" placeholder="+23324967594" />
+				      <label for="email">Contact Number</label>
+					  <input type="tel" id="contact" name="contact" class="input" placeholder="+23324967594" />
 				   </div>
 				   <div class="form-group">
 				       <label for="message">Message</label>
